@@ -2,6 +2,7 @@ import sys
 rl = lambda: sys.stdin.readline()
 n_case = int(rl().strip())
 
+
 def n_pair(node, edge):
     cnt = 0
     if len(node) == 1:
@@ -25,4 +26,5 @@ for i in range(n_case):
     n_node, n_edge =list(map(int, rl().strip().split(" ")))
     edge = list(map(int, rl().strip().split(" ")))
     edge = list(zip(edge[::2], edge[1::2]))
+    assert len(edge) == n_edge
     print(n_pair(list(range(n_node)), edge))
