@@ -3,7 +3,11 @@
 
 
 #### 완전탐색
-----
+---
 - PICNIC
 - BOARDCOVER
 - CLOCKSYNC(Python으로 완전탐색의 경우, 너무 느림)
+
+#### 분할정복(Divide & Conquer)
+---
+- QUADTREE
